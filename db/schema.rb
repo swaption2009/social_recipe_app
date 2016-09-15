@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160915173535) do
+ActiveRecord::Schema.define(version: 20160915184953) do
 
   create_table "cuisines", force: :cascade do |t|
     t.string   "name"
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 20160915173535) do
   create_table "recipes", force: :cascade do |t|
     t.string   "title"
     t.string   "cooking_time"
-    t.string   "level_of_difficulty"
+    t.integer  "level_of_difficulty"
     t.integer  "food_type_id"
     t.integer  "food_preference_id"
     t.integer  "cuisine_id"
