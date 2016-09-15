@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-  helper_method :sidebar_values
+  before_action :sidebar_values
   layout :layout_by_resource
 
 
