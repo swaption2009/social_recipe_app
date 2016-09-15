@@ -1,28 +1,11 @@
-<<<<<<< HEAD
-# README
+# Social Recipe App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app allows users to create and show their family secret recipes
 
-Things you may want to cover:
 
-* Ruby version
+## Configurations
 
-* System dependencies
+Ruby: 2.3.0
 
-* Configuration
+Rails: 5.0.0
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# social_recipe_app
->>>>>>> e2516093dd8b30838497df0aa199b51a6f0858fc
